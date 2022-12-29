@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual sua idade?</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Descobrindo sua idade</h1>
+    </header>
+    <section>
+        <div id="input">
+            <fieldset>
+                <legend>Verificando idade</legend>
+                <label for="ano">Ano de nascimento</label>
+                <input type="number" name="txtano" id="txtano" min="0">
+                <legend>Sexo</legend>
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>    
+            </fieldset>
+            <input id="button" type="button" value="Verificar" onclick="verificar()">     
+        </div>
+        <div id="res">
+            Preencha os dados acima
+        </div>
+        <div id="imgres"></div>
+    </section>
+    <footer>
+        <p>&copy; Zory</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

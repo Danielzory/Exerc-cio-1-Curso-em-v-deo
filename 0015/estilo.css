@@ -1,0 +1,60 @@
+body{
+    background: rgb(48, 48, 226);
+    font-size: 20pt;
+    }
+    header{
+        color: white;
+        text-align: center;
+    
+    }
+    fieldset{
+        border: black double;
+        border-radius: 9px;
+    }
+    section{
+        background: white;
+        border-radius: 10px;
+        padding: 25px;
+        width: 500px;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgb(33, 32, 32);
+    }
+    label{
+        font-size: 15pt;
+    }
+    legend{
+        font-size: 18pt;
+    }
+    
+    div{
+        margin: auto;
+        padding: 12px;
+        font-size: 15pt;
+        text-align: center;
+        
+    
+    }
+    
+    div#imgres{
+        text-align: center;
+        
+    }
+    input#button{
+        position: relative;
+        top: 1px;
+        border: solid rgb(134, 129, 129);
+        border-radius: 3px;
+        font-size: 15pt; 
+        box-shadow: 1px 1px 1px;
+    
+    
+    }
+        
+    
+    
+    footer{
+        color: rgb(34, 2, 2);
+        text-align: center;
+        font-style: italic;
+        font-family: monospace;
+    }
